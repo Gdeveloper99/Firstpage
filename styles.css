@@ -1,0 +1,40 @@
+html{
+    
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background: url(imgfnd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.div1{
+        display:flex;
+        flex-flow: column;
+        
+
+}
+.tit{
+    font-family: 'Lexend Mega', sans-serif;
+    color: white;
+}
+
+.btn{
+    color: white;
+    border-color: white;
+    transition: 1s;
+    
+
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(13, 84, 238);
+    border-color: white;
+    transform: ;
+}
